@@ -92,6 +92,16 @@ when the team needs solution or automation operations.
 Use [SharePoint CLI operations](./sharepoint-cli.md) for authentication,
 permissions, site and list provisioning, and connector integration.
 
+### Workspace agents and skills
+
+Open the repository folder in VS Code and select **Canvas Developer** from the
+agent picker for implementation, or **Canvas Reviewer** for a read-only source
+review. The reviewer cannot run live diagnostics or change the app. The
+workspace skills `/canvas-authoring-workflow`, `/canvas-sharepoint-workflow`
+and `/canvas-validation-workflow` add focused guidance to the Microsoft Canvas
+Apps plugin; they do not install or replace it. Check **Chat: Open
+Customizations** for discovery, then start a new session if necessary.
+
 ## 3. Development loop
 
 1. Confirm the correct app, environment and solution. Coordinate edits with
