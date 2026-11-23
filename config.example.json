@@ -1,0 +1,22 @@
+{
+  "powerPlatform": {
+    "environmentId": "",
+    "environmentType": "",
+    "solutionId": "",
+    "solutionUniqueName": "",
+    "appId": "",
+    "studioEditUrl": "",
+    "originalCreationUrl": ""
+  },
+  "sharePoint": {
+    "siteUrl": "",
+    "listTitle": "",
+    "listId": "",
+    "listRelativeUrl": ""
+  },
+  "cli": {
+    "applicationName": "",
+    "applicationId": ""
+  },
+  "prototypePath": ""
+}

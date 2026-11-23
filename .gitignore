@@ -1,0 +1,4 @@
+# Environment configuration and local app-specific material must not be public.
+/config.local.json
+/idea-lab/
+/project/
