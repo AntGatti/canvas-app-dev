@@ -9,6 +9,14 @@ live authoring, SharePoint integration, validation and release.
 same workflow can be applied to another app after verifying its environment,
 connections, schema and permissions.
 
+## Development environment
+
+![Development environment showing VS Code and Copilot, Canvas Authoring MCP, Power Apps Studio, Entra ID, and SharePoint](docs/canvas-development-architecture.svg)
+
+The authoring path synchronizes local YAML with Studio; the app's runtime
+accesses SharePoint through its connector. Entra authentication, resource
+permissions and CLI provisioning are separate concerns.
+
 ## Get started
 
 1. Follow the [canvas development guide](docs/canvas-development.md) to set up
@@ -39,7 +47,7 @@ connections, schema and permissions.
 - [Configuration template](config.example.json): environment values to keep
   in the ignored local configuration.
 
-The local `idea-lab/` app source and `project/` notes are excluded from Git
+The local `idea-lab/` app source and `project-docs/` notes are excluded from Git
 alongside `config.local.json`. They are not delivered by a repository clone.
 Use an approved private location for project-specific files and verify
 organizational policy before sharing app source or environment details.

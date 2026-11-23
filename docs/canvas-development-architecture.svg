@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" role="img" aria-labelledby="title description">
+  <title id="title">AI-assisted canvas app development environment</title>
+  <desc id="description">A developer uses GitHub Copilot and the Canvas Apps plugin in VS Code. Canvas Authoring MCP synchronizes local YAML and applies changes to a live Power Apps Studio coauthoring session. Studio saves and, when approved, publishes the canvas app. The app uses the SharePoint connector to access a list. The CLI for Microsoft 365 separately administers SharePoint. Microsoft Entra ID provides authentication and consent; users also need resource permissions.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M1 1 L9 5 L1 9 Z" fill="#0078d4"/></marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L9 5 L1 9 Z" fill="#742774"/></marker>
+    <marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L9 5 L1 9 Z" fill="#007f82"/></marker>
+    <style>
+      text { font-family: "Segoe UI", Arial, sans-serif; fill: #242f3e; }
+      .title { font-size: 30px; font-weight: 700; }
+      .subtitle { font-size: 16px; fill: #536579; }
+      .section { font-size: 17px; font-weight: 700; }
+      .heading { font-size: 18px; font-weight: 700; }
+      .body { font-size: 15px; fill: #42556a; }
+      .small { font-size: 14px; fill: #42556a; }
+      .label { font-size: 13px; font-weight: 600; fill: #40556c; }
+      .line-blue { fill: none; stroke: #0078d4; stroke-width: 3; }
+      .line-purple { fill: none; stroke: #742774; stroke-width: 3; }
+      .line-teal { fill: none; stroke: #007f82; stroke-width: 3; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="1000" fill="#f3f6fa"/>
+  <text x="60" y="58" class="title">AI-assisted Canvas app development</text>
+  <text x="60" y="86" class="subtitle">Authoring, identity, data access and release are separate responsibilities</text>
+
+  <rect x="60" y="112" width="1320" height="104" rx="12" fill="#eaf3fb" stroke="#90bfe5"/>
+  <rect x="82" y="133" width="46" height="46" rx="10" fill="#0078d4"/>
+  <path d="M105 142 L118 147 V157 C118 164 112 169 105 172 C98 169 92 164 92 157 V147 Z" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <text x="148" y="151" class="heading">Microsoft Entra ID</text>
+  <text x="148" y="177" class="body">Sign-in and delegated consent for Studio, authoring, CLI and app connections</text>
+  <text x="148" y="199" class="small">Users also need Power Platform roles and SharePoint permissions; consent alone does not grant resource access.</text>
+
+  <rect x="60" y="250" width="500" height="500" rx="14" fill="#ffffff" stroke="#c7d6e5"/>
+  <rect x="60" y="250" width="500" height="44" rx="14" fill="#eaf3fb"/>
+  <path d="M60 280 H560 V294 H60 Z" fill="#eaf3fb"/>
+  <text x="80" y="278" class="section" fill="#0078d4">DEVELOPER WORKSTATION</text>
+
+  <rect x="90" y="315" width="440" height="102" rx="10" fill="#f7fbff" stroke="#a9cce9"/>
+  <rect x="108" y="335" width="38" height="38" rx="8" fill="#0078d4"/>
+  <path d="M117 354 L125 346 L137 341 V368 L125 362 Z" fill="none" stroke="#fff" stroke-width="2"/>
+  <text x="160" y="347" class="heading">VS Code + GitHub Copilot</text>
+  <text x="160" y="371" class="body">Canvas Apps plugin, agents and skills</text>
+  <text x="160" y="394" class="small">Developer reviews AI-generated changes</text>
+
+  <rect x="90" y="480" width="205" height="114" rx="10" fill="#f7fbff" stroke="#a9cce9"/>
+  <text x="108" y="511" class="heading">Canvas Authoring</text>
+  <text x="108" y="534" class="heading">MCP server</text>
+  <text x="108" y="563" class="small">Discover · sync · compile</text>
+  <rect x="325" y="480" width="205" height="114" rx="10" fill="#f7fbff" stroke="#a9cce9"/>
+  <text x="343" y="511" class="heading">Local app YAML</text>
+  <text x="343" y="538" class="small">Screens + Power Fx</text>
+  <text x="343" y="560" class="small">Dedicated directory</text>
+  <path d="M192 417 V480" class="line-blue" marker-end="url(#arrow-blue)"/>
+  <text x="204" y="454" class="label">tools</text>
+  <path d="M295 537 H325" class="line-blue" marker-start="url(#arrow-blue)" marker-end="url(#arrow-blue)"/>
+  <text x="296" y="525" class="label">sync</text>
+
+  <rect x="90" y="650" width="205" height="70" rx="10" fill="#f7fbff" stroke="#a9cce9"/>
+  <text x="108" y="679" class="heading">CLI for Microsoft 365</text>
+  <text x="108" y="703" class="small">Optional administration</text>
+  <rect x="325" y="650" width="205" height="70" rx="10" fill="#f7fbff" stroke="#a9cce9"/>
+  <text x="343" y="679" class="heading">Local configuration</text>
+  <text x="343" y="703" class="small">Ignored; no secrets</text>
+
+  <rect x="620" y="250" width="375" height="500" rx="14" fill="#ffffff" stroke="#d8c6df"/>
+  <rect x="620" y="250" width="375" height="44" rx="14" fill="#f4edf7"/>
+  <path d="M620 280 H995 V294 H620 Z" fill="#f4edf7"/>
+  <text x="640" y="278" class="section" fill="#742774">POWER PLATFORM ENVIRONMENT</text>
+
+  <rect x="650" y="355" width="315" height="108" rx="10" fill="#fcf8fd" stroke="#d3b7dd"/>
+  <rect x="668" y="375" width="38" height="38" rx="8" fill="#742774"/>
+  <path d="M677 401 L685 382 L697 387 L689 406 Z" fill="none" stroke="#fff" stroke-width="2"/>
+  <text x="720" y="387" class="heading">Power Apps Studio</text>
+  <text x="720" y="413" class="body">Live coauthoring session</text>
+  <text x="720" y="436" class="small">Preview and diagnostics</text>
+
+  <rect x="650" y="585" width="315" height="126" rx="10" fill="#fcf8fd" stroke="#d3b7dd"/>
+  <text x="670" y="617" class="heading">Canvas app</text>
+  <text x="670" y="643" class="body">Power Fx + SharePoint connector</text>
+  <text x="670" y="668" class="small">Runs with user connection and permissions</text>
+  <path d="M295 495 V450 H600 V409 H650" class="line-blue" marker-start="url(#arrow-blue)" marker-end="url(#arrow-blue)"/>
+  <text x="395" y="441" class="label">Live edits and sync</text>
+  <path d="M807 463 V585" class="line-purple" marker-end="url(#arrow-purple)"/>
+  <text x="824" y="514" class="label">Save draft</text>
+  <text x="824" y="535" class="label">Publish only after approval</text>
+
+  <rect x="1055" y="250" width="325" height="500" rx="14" fill="#ffffff" stroke="#b3d9d7"/>
+  <rect x="1055" y="250" width="325" height="44" rx="14" fill="#e9f7f6"/>
+  <path d="M1055 280 H1380 V294 H1055 Z" fill="#e9f7f6"/>
+  <text x="1075" y="278" class="section" fill="#007f82">MICROSOFT 365 DATA</text>
+  <rect x="1080" y="585" width="275" height="126" rx="10" fill="#f4fcfb" stroke="#a5d6d3"/>
+  <rect x="1098" y="606" width="38" height="38" rx="8" fill="#007f82"/>
+  <path d="M1107 615 H1127 M1107 622 H1127 M1107 629 H1127 M1107 636 H1127" stroke="#fff" stroke-width="2"/>
+  <text x="1150" y="619" class="heading">SharePoint</text>
+  <text x="1150" y="643" class="body">Site and list</text>
+  <text x="1150" y="666" class="small">Enforces permissions</text>
+  <path d="M965 648 H1080" class="line-teal" marker-end="url(#arrow-teal)"/>
+  <text x="980" y="627" class="label">runtime</text>
+  <path d="M192 720 V795 H1217 V711" class="line-teal" marker-end="url(#arrow-teal)"/>
+  <rect x="557" y="777" width="341" height="31" rx="6" fill="#f3f6fa"/>
+  <text x="574" y="798" class="label">Approved provisioning and schema inspection</text>
+
+  <rect x="60" y="840" width="1320" height="104" rx="12" fill="#ffffff" stroke="#c7d6e5"/>
+  <text x="82" y="872" class="section">Important boundaries</text>
+  <text x="82" y="900" class="body">Sync overwrites matching local YAML. Compile validates and applies to coauthoring; it does not save or publish.</text>
+  <text x="82" y="924" class="body">SharePoint is provisioned separately. App sharing does not replace list access or connector authorization.</text>
+</svg>
